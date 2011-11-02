@@ -1,0 +1,37 @@
+# Compile using "tragesym TCS3200.tsym TCS3200.sch"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=TCS3200
+device=TCS3200
+refdes=U?
+footprint=SOIC 8
+description=Programmable color light-to-frequency converter
+documentation=TCS3200 TCS3210.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		in	line	l		S0
+2		in	line	l		S1
+3		in	dot	l		\_OE\_
+4		pwr	none		GND	
+5		pwr	none		VDD	
+6		out	line	r		OUT
+7		in	line	l		S2
+8		in	line	l		S3
+
