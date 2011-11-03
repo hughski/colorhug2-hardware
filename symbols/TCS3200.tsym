@@ -1,4 +1,4 @@
-# Compile using "tragesym TCS3200.tsym TCS3200.sch"
+# Compile using "tragesym TCS3200.tsym TCS3200.sym"
 
 [options]
 wordswap=yes
@@ -26,12 +26,12 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		in	line	l		S0
-2		in	line	l		S1
+1		in	line	r		S0
+2		in	line	r		S1
 3		in	dot	l		\_OE\_
 4		pwr	none		GND	
 5		pwr	none		VDD	
-6		out	line	r		OUT
-7		in	line	l		S2
-8		in	line	l		S3
+6		out	line	l		OUT
+7		in	line	r		S2
+8		in	line	r		S3
 

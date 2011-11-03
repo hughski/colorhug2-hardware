@@ -1,4 +1,4 @@
-# Compile using "tragesym PIC18F46J50.tsym PIC18F46J50.sch"
+# Compile using "tragesym PIC18F46J50.tsym PIC18F46J50.sym"
 
 [options]
 wordswap=yes
@@ -14,7 +14,7 @@ version=20060113 1
 name=PIC18F46J50
 device=PIC18F46J50
 refdes=U?
-footprint=TQFP 44
+footprint=TQFP44_10
 description=Microchip Microcontroller
 documentation=39931d-1.pdf
 author=Richard Hughes <richard@hughsie.com>
