@@ -1,0 +1,31 @@
+# Compile using "tragesym LR1108-A.tsym LR1108-A.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1000
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=LR1108-A
+device=LR1108-A
+refdes=U?
+footprint=SOT89
+description=1A fast ultra low dropout linear regulator
+documentation=LR1108.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		pwr	line	b		GND
+2		pwr	line	r		VOUT
+3		pwr	line	l		VIN
