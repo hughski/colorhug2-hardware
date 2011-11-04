@@ -1,4 +1,4 @@
-# Compile using "tragesym LR1108-A.tsym LR1108-A.sym"
+# Compile using "tragesym L78L33AC.tsym L78L33AC.sym"
 
 [options]
 wordswap=yes
@@ -11,12 +11,12 @@ pinwidthhorizontal=400
 
 [geda_attr]
 version=20060113 1
-name=LR1108-A
-device=LR1108-A
+name=L78L33AC
+device=L78L33AC
 refdes=U?
 footprint=SOT89
-description=1A fast ultra low dropout linear regulator
-documentation=LR1108.pdf
+description=Positive voltage linear regulator
+documentation=CD00000446.pdf
 author=Richard Hughes <richard@hughsie.com>
 dist-license=GPL
 use-license=unlimited
@@ -26,6 +26,6 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		pwr	line	b		GND
-2		pwr	line	r		VOUT
-3		pwr	line	l		VIN
+1		pwr	line	r		Vout
+2		pwr	line	b		GND
+3		pwr	line	l		Vin
