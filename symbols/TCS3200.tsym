@@ -30,7 +30,7 @@ numslots=0
 2		in	line	r		S1
 3		in	dot	l		\_OE\_
 4		pwr	none		GND	
-5		pwr	none		VDD	
+5		pwr	none		Vcc	
 6		out	line	l		OUT
 7		in	line	r		S2
 8		in	line	r		S3

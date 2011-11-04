@@ -31,13 +31,13 @@ numslots=0
 3		io	line	r		RD5/PMD5/RP22
 4		io	line	r		RD6/PMD6/RP23
 5		io	line	r		RD7/PMD7/RP24
-6		pwr	none		VSS	
-7		pwr	none		AVDD	
-8		io	none		VDD	
-9		io	line	l		RB0/AN12/INT0/RP3
-10		io	line	l		RB1/AN10/PMBE/RTCC/RP4
-11		io	line	l		RB2/AN8/CTED1/PMA3/VMO/REFO/RP5
-12		io	line	l		RB3/AN9/CTED2/PMA2/VPO/RP6
+6		pwr	none		GND	
+7		pwr	none		Vcc	
+8		io	line	l		RB0/AN12/INT0/RP3
+9		io	line	l		RB1/AN10/PMBE/RTCC/RP4
+10		io	line	l		RB2/AN8/CTED1/PMA3/VMO/REFO/RP5
+11		io	line	l		RB3/AN9/CTED2/PMA2/VPO/RP6
+#12		nc				NC
 #13		nc				NC
 14		io	line	l		RB4/PMA1/KBI0/SCK1/SCL1/RP7
 15		io	line	l		RB5/PMA0/KBI1/SDI1/SDA1/RP8
@@ -48,21 +48,21 @@ numslots=0
 20		io	line	l		RA1/AN1/C2INA/PMA7/RP1
 21		io	line	l		RA2/AN2/VREF-/CVREF-/C2INB
 22		io	line	l		RA3/AN3/VREF+/C1INB
-23		pwr	none		VDDCORE	
+23		pwr	none		Vddcore
 24		io	line	l		RA5/AN4/SS1/HLVDIN/RCV/RP2
 25		io	line	r		RE0/AN5/PMRD
 26		io	line	r		RE1/AN6/PMWR
 27		io	line	r		RE2/AN7/PMCS
-28		pwr	none		AVDD	
-29		pwr	none		VDD	
-30		pwr	none		AVSS	
-31		pwr	none		VSS	
-32		io	line	l		OSC1/CLKI/RA7
-33		io	line	l		OSC2/CLKO/RA6
-34		io	line	r		RC0/T1OSO/T1CKI/RP11
+28		pwr	none		Vcc	
+29		pwr	none		GND	
+30		io	line	l		OSC1/CLKI/RA7
+31		io	line	l		OSC2/CLKO/RA6
+32		io	line	r		RC0/T1OSO/T1CKI/RP11
+#33		nc				NC
+#34		nc				NC
 35		io	line	r		RC1/T1OSI/\_UOE\_/RP12
 36		io	line	r		RC2/AN11/CTPLS/RP13
-37		pwr	none		VUSB	
+37		pwr	none		Vusb	
 38		io	line	r		RD0/PMD0/SCL2
 39		io	line	r		RD1/PMD1/SDA2
 40		io	line	r		RD2/PMD2/RP19
