@@ -62,7 +62,7 @@ numslots=0
 #34		nc				NC
 35		io	line	r		RC1/T1OSI/\_UOE\_/RP12
 36		io	line	r		RC2/AN11/CTPLS/RP13
-37		pwr	none		Vusb	
+37		pwr	none		Vcc	
 38		io	line	r		RD0/PMD0/SCL2
 39		io	line	r		RD1/PMD1/SDA2
 40		io	line	r		RD2/PMD2/RP19
