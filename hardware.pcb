@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Thu Nov 10 08:58:26 2011
+# date:    Thu Nov 10 09:06:09 2011
 # user:    hughsie (Richard Hughes)
 # host:    hughsie-t510.lan
 
@@ -1415,9 +1415,30 @@ Layer(1 "component")
 	Line[64961 6299 75984 6299 1500 2000 ""]
 	Line[64567 24409 75591 24409 1500 2000 ""]
 	Line[70472 6299 70472 31102 1500 2000 ""]
+	Line[38976 60236 38976 68898 1500 2000 "clearline"]
 	Polygon("clearpoly,lock")
 	(
 		[0 0] [102362 0] [102362 141339] [0 141339] 
+	)
+	Polygon("clearpoly")
+	(
+		[18504 67323] [90157 67323] [90157 12992] [18504 12992] 
+	)
+	Polygon("clearpoly")
+	(
+		[47244 68110] [21260 68110] [21260 35827] [47244 35827] 
+	)
+	Polygon("clearpoly")
+	(
+		[42126 38583] [85827 38583] [85827 68504] [42126 68504] 
+	)
+	Polygon("clearpoly")
+	(
+		[48819 40551] [61811 40551] [61811 27165] [48819 27165] 
+	)
+	Polygon("clearpoly")
+	(
+		[79528 14961] [85433 14961] [85433 39370] [79528 39370] 
 	)
 )
 Layer(2 "solder")
@@ -1648,6 +1669,7 @@ NetList()
 		Connect("U1-5")
 		Connect("U2-7")
 		Connect("U2-28")
+		Connect("U2-37")
 		Connect("U3-1")
 	)
 	Net("Vddcore" "(unknown)")
@@ -1655,9 +1677,5 @@ NetList()
 		Connect("C6-2")
 		Connect("C8-2")
 		Connect("U2-23")
-	)
-	Net("Vusb" "(unknown)")
-	(
-		Connect("U2-37")
 	)
 )
