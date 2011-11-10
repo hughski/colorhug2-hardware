@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Thu Nov 10 09:06:09 2011
+# date:    Thu Nov 10 09:15:44 2011
 # user:    hughsie (Richard Hughes)
 # host:    hughsie-t510.lan
 
@@ -1505,6 +1505,8 @@ Layer(2 "solder")
 	Line[87402 127559 80961 134000 1000 2000 "clearline"]
 	Line[94882 75984 94882 66142 1000 2000 ""]
 	Line[90945 70866 98425 70866 1000 2000 ""]
+	Text[16142 31103 0 111 "Copyright Hughski Ltd. 2011" "clearline,auto"]
+	Text[34253 21653 0 111 "ColorHug 0.1.0" "clearline,auto"]
 	Polygon("clearpoly,lock")
 	(
 		[0 141732] [102362 141732] [102362 0] [0 0] 
