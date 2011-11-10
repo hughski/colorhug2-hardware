@@ -1537,6 +1537,9 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+	Text[100001 119292 0 100 "|" "clearline"]
+	Text[64173 45669 0 100 "|" "clearline"]
+	Text[99607 133071 0 100 "|" "clearline"]
 )
 NetList()
 (
