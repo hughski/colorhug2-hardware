@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Thu Nov 10 09:15:44 2011
+# date:    Thu Nov 10 09:18:20 2011
 # user:    hughsie (Richard Hughes)
 # host:    hughsie-t510.lan
 
@@ -1273,7 +1273,7 @@ Layer(1 "component")
 	Line[57340 81500 57314 81474 1000 2000 "clearline"]
 	Line[84400 17700 84400 32183 1500 2000 "clearline"]
 	Line[71957 85500 72000 85543 1000 2000 "clearline"]
-	Line[14567 71654 17323 68898 1500 2000 "clearline"]
+	Line[14567 71654 14567 71653 1000 2000 "clearline"]
 	Line[58000 130000 58000 136000 1500 2000 "clearline"]
 	Line[95071 32854 99823 32854 2000 2000 ""]
 	Line[1500 48500 6414 48500 1500 2000 ""]
@@ -1416,6 +1416,8 @@ Layer(1 "component")
 	Line[64567 24409 75591 24409 1500 2000 ""]
 	Line[70472 6299 70472 31102 1500 2000 ""]
 	Line[38976 60236 38976 68898 1500 2000 "clearline"]
+	Line[14567 71654 14567 71433 1000 2000 "clearline"]
+	Line[14567 71433 17000 69000 1500 2000 "clearline"]
 	Polygon("clearpoly,lock")
 	(
 		[0 0] [102362 0] [102362 141339] [0 141339] 
