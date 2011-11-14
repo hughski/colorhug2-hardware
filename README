@@ -1,0 +1,5 @@
+to see the schematic, you first need to create the symbols :
+  ( cd symbols ; make )
+
+then you can open it with gschem, from the geda-gschem packages :
+  gschem hardware.sch
