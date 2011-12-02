@@ -1,7 +1,7 @@
 # release: pcb 20100929
-# date:    Fri Nov 11 15:41:29 2011
+# date:    Fri Dec  2 09:29:08 2011
 # user:    hughsie (Richard Hughes)
-# host:    hughsie-t510
+# host:    hughsie-t510.lan
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -1497,8 +1497,8 @@ Layer(2 "solder")
 	Line[48000 127197 51575 123622 1500 2000 "clearline"]
 	Line[51575 123622 76771 123622 1500 2000 "clearline"]
 	Line[62992 79528 62992 82508 1500 2000 "clearline"]
-	Text[16142 31103 0 111 "Copyright Hughski Ltd. 2011" "clearline,auto,lock"]
-	Text[34253 21653 0 111 "ColorHug 0.1.0" "clearline,auto,lock"]
+	Text[40946 10237 0 133 "ColorHug v1.0" "clearline,selected,auto"]
+	Text[40944 20472 0 133 "(C) Hughski Ltd." "clearline,auto"]
 	Polygon("clearpoly,lock")
 	(
 		[0 141732] [102362 141732] [102362 0] [0 0] 
