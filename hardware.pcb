@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Fri Dec  2 14:47:49 2011
+# date:    Mon Dec  5 16:43:02 2011
 # user:    hughsie (Richard Hughes)
 # host:    hughsie-t510.lan
 
@@ -1531,6 +1531,10 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+	Line[394 394 101575 394 1000 2000 "clearline"]
+	Line[394 141339 394 394 1000 2000 "clearline"]
+	Line[101575 141339 394 141339 1000 2000 "clearline"]
+	Line[101969 394 101969 140946 1000 2000 "clearline"]
 	Text[100001 119292 0 100 "|" "clearline"]
 	Text[64173 45669 0 100 "|" "clearline"]
 	Text[99607 133071 0 100 "|" "clearline"]
