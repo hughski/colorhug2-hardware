@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 106299 169291]
 
 Grid[393.0 0 0 0]
-Cursor[106110 0 0.000000]
+Cursor[69168 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1181]
@@ -853,7 +853,7 @@ Element["" "0805" "C5" "100nf" 10414 61369 -2938 3396 0 100 ""]
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
+	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1032,8 +1032,8 @@ Element["" "USB_mini_TYPE-B_SMT_truncated" "CONN2" "unknown" 53214 14468 -22708 
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-8661 1500 3543 0 0 3543 "" "G" "edge2"]
-	Pin[8661 1500 3543 0 0 3543 "" "G" "edge2"]
+	Pin[-8661 -1200 3543 0 0 3543 "" "G" "edge2"]
+	Pin[8661 -1200 3543 0 0 3543 "" "G" "edge2"]
 	Pad[-17322 -9843 -17322 -7874 7874 1200 3169 "" "GND" "square"]
 	Pad[17322 -9843 17322 -7874 7874 1200 3169 "" "GND" "square"]
 	Pad[-17322 7874 -17322 9842 7874 1200 3169 "" "GND" "square,edge2"]
