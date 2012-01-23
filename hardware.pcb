@@ -1030,8 +1030,8 @@ Element["" "TANT_A" "C7" "2u2f" 15043 17292 -3746 -13174 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-5000 -1800 -5000 1800 4900 2000 5500 "+" "1" "square"]
-	Pad[5000 -1800 5000 1800 4900 2000 5500 "-" "2" "square"]
+	Pad[-5000 -1800 -5000 1800 5900 2000 6500 "+" "1" "square"]
+	Pad[5000 -1800 5000 1800 5900 2000 6500 "-" "2" "square"]
 	ElementLine [-7200 -5500 -9600 -4300 1000]
 	ElementLine [-7200 -5500 8600 -5500 1000]
 	ElementLine [8600 -5500 8600 5500 1000]
