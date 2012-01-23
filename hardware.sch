@@ -39,19 +39,6 @@ value=100nf
 T 42700 40500 5 10 0 0 0 0 1
 footprint=0805
 }
-C 43400 40500 1 90 0 capacitor-1.sym
-{
-T 42700 40700 5 10 0 0 90 0 1
-device=CAPACITOR
-T 43500 41200 5 10 1 1 180 0 1
-refdes=C4
-T 42500 40700 5 10 0 0 90 0 1
-symversion=0.1
-T 43300 40700 5 10 1 1 0 0 1
-value=100nf
-T 43400 40500 5 10 0 0 0 0 1
-footprint=0805
-}
 C 44100 40500 1 90 0 capacitor-1.sym
 {
 T 43400 40700 5 10 0 0 90 0 1
