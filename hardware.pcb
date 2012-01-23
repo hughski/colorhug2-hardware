@@ -979,20 +979,6 @@ Element["" "JUMPER6" "CONN1" "ICSP" 78107 154729 -29559 5543 0 100 ""]
 
 	)
 
-Element["" "0805" "R2" "1k" 29767 46861 -1091 -10199 0 100 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-393 -2755 393 -2755 800]
-	ElementLine [-393 2755 393 2755 800]
-
-	)
-
 Element["" "SOT89" "U3" "unknown" 97772 47191 -16194 4161 0 100 ""]
 (
 	Attribute("device" "L78L33AC")
@@ -1278,9 +1264,6 @@ Layer(1 "component")
 	Line[25545 58164 39300 58164 1500 2000 "clearline"]
 	Line[53214 26470 53214 44643 1500 2000 "clearline"]
 	Line[53214 44643 39693 58164 1500 2000 "clearline"]
-	Line[14000 32869 21079 32869 1500 2000 "clearline"]
-	Line[21079 32869 26331 38121 1500 2000 "clearline"]
-	Line[33310 46861 41756 46861 1500 2000 "clearline"]
 	Line[41756 46861 41805 46811 1000 2000 "clearline"]
 	Line[24759 137587 24759 144087 1500 2000 ""]
 	Line[21259 141087 28259 141087 1500 2000 ""]
@@ -1297,8 +1280,6 @@ Layer(1 "component")
 	Line[36235 126232 55020 145017 1500 2000 "clearline"]
 	Line[55020 145017 68395 145017 1500 2000 "clearline"]
 	Line[68395 145017 78107 154729 1500 2000 "clearline"]
-	Line[26331 46754 26224 46861 1000 2000 "clearline"]
-	Line[26331 38121 26331 46754 1500 2000 "clearline"]
 	Line[86853 50304 94659 50304 1500 2000 "clearline"]
 	Line[94659 50304 97772 47191 1500 2000 "clearline"]
 	Line[91569 41265 104145 41265 1500 2000 ""]
@@ -1382,6 +1363,10 @@ Layer(1 "component")
 	Line[101787 123795 101787 156021 1500 2000 "clearline"]
 	Line[95898 157986 99822 157986 1500 2000 "clearline"]
 	Line[99822 157986 101787 156021 1500 2000 "clearline"]
+	Line[14000 32869 18721 32869 1500 2000 "clearline"]
+	Line[18721 32869 32619 46767 1500 2000 "clearline"]
+	Line[32619 46767 41070 46767 1500 2000 "clearline"]
+	Line[41070 46767 41463 47160 1000 2000 "clearline"]
 	Polygon("clearpoly,lock")
 	(
 		[96285 27903] [20829 27903] [20829 84102] [96285 84102] 
