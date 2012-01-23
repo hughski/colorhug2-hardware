@@ -809,20 +809,6 @@ Via[78207 58950 4100 2000 0 2000 "" ""]
 Via[71526 70740 4100 2000 0 2000 "" ""]
 Via[5502 73491 4100 2000 0 2000 "" ""]
 
-Element["" "0805" "C4" "100nf" 10414 46869 -3237 3680 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
-	ElementLine [-393 2755 393 2755 800]
-	ElementLine [-393 -2755 393 -2755 800]
-
-	)
-
 Element["" "HC49smt" "X1" "12MHz" 92189 83341 -17000 19500 0 100 ""]
 (
 	Attribute("device" "CRYSTAL")
@@ -1220,7 +1206,6 @@ Layer(1 "component")
 	Line[45684 122177 45684 115183 1500 2000 "clearline"]
 	Line[15024 84523 15024 84522 1000 2000 "clearline"]
 	Line[1957 61369 6871 61369 1500 2000 ""]
-	Line[1957 46869 6871 46869 1500 2000 ""]
 	Line[8278 97369 8401 97492 1000 2000 "clearline"]
 	Line[48957 122054 48834 122177 1000 2000 "clearline"]
 	Line[39457 105019 48882 114444 1500 2000 "clearline"]
