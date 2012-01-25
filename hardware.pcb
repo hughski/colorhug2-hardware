@@ -1006,10 +1006,10 @@ Element["" "USB_mini_TYPE-B_SMT_truncated" "CONN2" "unknown" 53214 14468 -22708 
 	Attribute("vendor_part_number" "unknown")
 	Pin[-8661 -1200 3543 0 0 3543 "" "G" "edge2"]
 	Pin[8661 -1200 3543 0 0 3543 "" "G" "edge2"]
-	Pad[-17322 -9843 -17322 -7874 7874 1200 3169 "" "GND" "square"]
-	Pad[17322 -9843 17322 -7874 7874 1200 3169 "" "GND" "square"]
-	Pad[-17322 7874 -17322 9842 7874 1200 3169 "" "GND" "square,edge2"]
-	Pad[17322 7874 17322 9842 7874 1200 3169 "" "GND" "square,edge2"]
+	Pad[-17322 -9843 -17322 -7874 7874 1200 9000 "" "GND" "square"]
+	Pad[17322 -9843 17322 -7874 7874 1200 9000 "" "GND" "square"]
+	Pad[-17322 7874 -17322 9842 7874 1200 9000 "" "GND" "square,edge2"]
+	Pad[17322 7874 17322 9842 7874 1200 9000 "" "GND" "square,edge2"]
 	Pad[6300 4921 6300 12795 1969 2802 3169 "VCC" "1" "square,edge2"]
 	Pad[3150 4921 3150 12795 1969 2802 3169 "D-" "2" "square,edge2"]
 	Pad[0 4921 0 12795 1969 2802 3169 "D+" "3" "square,edge2"]
@@ -1439,7 +1439,7 @@ Layer(2 "solder")
 	Line[71526 75063 71526 66417 1500 2000 ""]
 	Line[1572 73491 9825 73491 1500 2000 ""]
 	Line[5502 77814 5502 69168 1500 2000 ""]
-	Text[11142 12495 0 133 "ColorHug v1.0" "clearline,onsolder"]
+	Text[11142 12495 0 133 "ColorHug v1.1" "clearline,onsolder"]
 	Text[8422 22452 0 133 "(C) Hughski Ltd." "clearline,onsolder"]
 	Polygon("clearpoly,lock")
 	(
