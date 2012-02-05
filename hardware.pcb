@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 106299 169291]
 
 Grid[393.0 0 0 0]
-Cursor[69168 0 0.000000]
+Cursor[106110 20829 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1181]
@@ -838,8 +838,8 @@ Element["" "0805" "C5" "100nf" 10414 61369 -2938 3396 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -852,8 +852,8 @@ Element["" "0805" "C3" "100nf" 13952 135015 -1971 3992 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 -2755 393 -2755 800]
 	ElementLine [-393 2755 393 2755 800]
 
@@ -926,8 +926,8 @@ Element["" "0805" "R1" "10k" 10457 32869 -3070 3757 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 -2755 393 -2755 800]
 	ElementLine [-393 2755 393 2755 800]
 
@@ -986,10 +986,10 @@ Element["" "SOT89" "U3" "unknown" 97772 47191 -16194 4161 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-1200 0 1200 0 3700 3000 4300 "Vout" "1" "square,edge2"]
-	Pad[-1200 -6100 1200 -6100 3700 3000 4300 "GND" "2" "square,edge2"]
-	Pad[-1200 -12200 1200 -12200 3700 3000 4300 "Vin" "3" "square,edge2"]
-	Pad[-12200 -9100 -12200 -3100 6100 3000 6700 "4" "4" "square,edge2"]
+	Pad[-1200 0 1200 0 4200 3000 4800 "Vout" "1" "square,edge2"]
+	Pad[-1200 -6100 1200 -6100 4200 3000 4800 "GND" "2" "square,edge2"]
+	Pad[-1200 -12200 1200 -12200 4200 3000 4800 "Vin" "3" "square,edge2"]
+	Pad[-12200 -9100 -12200 -3100 6600 3000 7200 "4" "4" "selected,square,edge2"]
 	ElementLine [-16400 -15300 -16400 3000 1500]
 	ElementLine [-16400 -15300 4300 -15300 1500]
 	ElementLine [4300 -15300 4300 3000 1500]
@@ -1006,10 +1006,10 @@ Element["" "USB_mini_TYPE-B_SMT_truncated" "CONN2" "unknown" 53214 14468 -22708 
 	Attribute("vendor_part_number" "unknown")
 	Pin[-8661 -1200 3543 0 0 3543 "" "G" "edge2"]
 	Pin[8661 -1200 3543 0 0 3543 "" "G" "edge2"]
-	Pad[-17322 -9843 -17322 -7874 7874 1200 9000 "" "GND" "square"]
-	Pad[17322 -9843 17322 -7874 7874 1200 9000 "" "GND" "square"]
-	Pad[-17322 7874 -17322 9842 7874 1200 9000 "" "GND" "square,edge2"]
-	Pad[17322 7874 17322 9842 7874 1200 9000 "" "GND" "square,edge2"]
+	Pad[-17322 -9843 -17322 -7874 8874 1200 10000 "" "GND" "square"]
+	Pad[17322 -9843 17322 -7874 8874 1200 10000 "" "GND" "square"]
+	Pad[-17322 7874 -17322 9842 8874 1200 10000 "" "GND" "square,edge2"]
+	Pad[17322 7874 17322 9842 8874 1200 10000 "" "GND" "square,edge2"]
 	Pad[6300 4921 6300 12795 1969 2802 3169 "VCC" "1" "square,edge2"]
 	Pad[3150 4921 3150 12795 1969 2802 3169 "D-" "2" "square,edge2"]
 	Pad[0 4921 0 12795 1969 2802 3169 "D+" "3" "square,edge2"]
@@ -1048,8 +1048,8 @@ Element["" "0805" "C1" "22pf" 74031 98412 -3024 -10123 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1062,8 +1062,8 @@ Element["" "0805" "C2" "22pf" 73988 81369 -3114 -10013 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1076,8 +1076,8 @@ Element["" "0805" "C6" "10uf" 67203 122223 6099 -9874 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 -2755 393 -2755 800]
 	ElementLine [-393 2755 393 2755 800]
 
@@ -1090,8 +1090,8 @@ Element["" "0805" "C8" "100nf" 67203 135192 6199 -9883 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 -2755 393 -2755 800]
 	ElementLine [-393 2755 393 2755 800]
 
@@ -1104,8 +1104,8 @@ Element["" "0805" "C9" "1uf" 68382 38907 -3850 -9257 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1118,8 +1118,8 @@ Element["" "0805" "D1" "unknown" 68382 52662 -2432 -9772 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1132,8 +1132,8 @@ Element["" "0805" "R3" "1k" 92355 122223 5090 -9852 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1146,8 +1146,8 @@ Element["" "0805" "R4" "1k" 92355 135192 -701 -9242 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
-	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "2" "2" "square"]
 	ElementLine [-393 2755 393 2755 800]
 	ElementLine [-393 -2755 393 -2755 800]
 
@@ -1160,8 +1160,8 @@ Element["" "0805" "LED1" "unknown" 92355 157986 -18492 2193 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "A" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "K" "2" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "A" "1" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "K" "2" "square"]
 	ElementLine [-393 -2755 393 -2755 800]
 	ElementLine [-393 2755 393 2755 800]
 
@@ -1174,8 +1174,8 @@ Element["" "0805" "LED0" "unknown" 92355 148554 -18694 -9650 0 100 ""]
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pad[3543 -393 3543 393 5118 2000 5718 "A" "1" "square"]
-	Pad[-3543 -393 -3543 393 5118 2000 5718 "K" "2" "square"]
+	Pad[3543 -393 3543 393 5618 2000 6218 "A" "1" "square"]
+	Pad[-3543 -393 -3543 393 5618 2000 6218 "K" "2" "square"]
 	ElementLine [-393 -2755 393 -2755 800]
 	ElementLine [-393 2755 393 2755 800]
 
