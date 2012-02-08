@@ -1004,8 +1004,8 @@ Element["" "USB_mini_TYPE-B_SMT_truncated" "CONN2" "unknown" 53214 14468 -22708 
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[-8661 -1200 3543 0 0 3543 "" "G" "edge2"]
-	Pin[8661 -1200 3543 0 0 3543 "" "G" "edge2"]
+	Pin[-8661 -1200 3543 0 4800 3543 "" "G" "edge2"]
+	Pin[8661 -1200 3543 0 4800 3543 "" "G" "edge2"]
 	Pad[-17322 -9843 -17322 -7874 8874 1200 10000 "" "GND" "square"]
 	Pad[17322 -9843 17322 -7874 8874 1200 10000 "" "GND" "square"]
 	Pad[-17322 7874 -17322 9842 8874 1200 10000 "" "GND" "square,edge2"]
