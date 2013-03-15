@@ -1,0 +1,40 @@
+%define alphatag                #ALPHATAG#
+
+Summary:   Schematics for the Hughski Colorimeter
+Name:      colorhug-hardware
+Version:   #VERSION#
+Release:   0.#BUILD#%{?alphatag}%{?dist}
+License:   GPLv2+
+URL:       http://www.hughski.com/
+Source0:   http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
+BuildArch: noarch
+
+BuildRequires: geda-utils
+
+%description
+The Hughski ColorHug colorimeter is a low cost open-source hardware
+sensor used to calibrate screens.
+
+This package includes the hardware schematics which may be useful to users
+modifying the circuit or building a ColorHug from scratch.
+
+%prep
+%setup -q
+
+%build
+%configure
+
+make %{?_smp_mflags}
+
+%install
+make install DESTDIR=$RPM_BUILD_ROOT
+
+%files
+%defattr(-,root,root,-)
+%doc README AUTHORS NEWS COPYING
+%dir %{_datadir}/colorhug-hardware
+%{_datadir}/colorhug-hardware
+
+%changelog
+* #LONGDATE# Richard Hughes <richard@hughsie.com> #VERSION#-0.#BUILD##ALPHATAG#
+- Update from git
