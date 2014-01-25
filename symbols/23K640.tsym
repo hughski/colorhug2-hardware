@@ -1,0 +1,36 @@
+# Compile using "tragesym 23K640.tsym 23K640.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1200
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=23K640
+device=23K640
+refdes=U?
+footprint=SO8
+description=Microchip 64K SPI Bus Low-Power Serial SRAM
+documentation=22126E.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		in	line	r		\_CS\_
+2		out	line	l		SO
+#3		nc	line			NC
+4		pwr	none		GND	
+5		in	line	l		SI
+6		in	line	l		SCK
+7		in	line	r		\_HOLD\_
+8		pwr	none		Vcc	
