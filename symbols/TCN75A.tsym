@@ -1,0 +1,37 @@
+# Compile using "tragesym TCN75A.tsym TCN75A.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=TCN75A
+device=TCN75A
+refdes=U?
+footprint=SO8
+description=2-Wire Serial Temperature Sensor
+documentation=TCN75A.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		io	line	r		SDA
+2		io	line	r		SCL
+3		out	line	r		ALERT
+4		pwr	none		GND	
+5		in	line	l		A2
+6		in	line	l		A1
+7		in	line	l		A0
+8		pwr	none		Vcc	
+
