@@ -1,0 +1,44 @@
+# Compile using "tragesym MCDC04.tsym MCDC04.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=MCDC04
+device=MCDC04
+refdes=U?
+footprint=SSOP16
+description=Multi-Channel Programmable Analog Current Integrator with Digital Converter
+documentation=MCDC04.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		in	line	l		IN3
+2		in	line	l		IN2
+3		in	line	l		IN1
+4		in	line	l		IN0
+5		in	none	l		REXT
+6		pwr	none		GND	
+7		in	none		GND	
+8		in	line	b		A1
+9		in	line	b		A0
+10		io	line	r		SDA
+11		in	line	r		SCL
+12		out	line	r		READY
+13		in	line	l		SYN
+14		in	none		Vcc	
+15		pwr	line	t		VDDA
+16		out	line	l		VPD

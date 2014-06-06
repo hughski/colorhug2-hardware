@@ -3,6 +3,7 @@ GENERATED_FILES =					\
 	PIC18F46J50.sym					\
 	23K640.sym					\
 	TCN75A.sym					\
+	MCDC04.sym					\
 	MTCSiCF.sym					\
 	TCS3200.sym
 
