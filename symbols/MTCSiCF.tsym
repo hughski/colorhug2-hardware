@@ -1,0 +1,45 @@
+# Compile using "tragesym MTCSiCF.tsym MTCSiCF.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1000
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=MTCSiCF
+device=MTCSiCF
+refdes=U?
+footprint=QFN16_3_EP
+description=Integral True Color Sensor
+documentation=mgMAZET_Farbsensor-MTCSICF_EN
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+#1						
+#2						
+#3						
+#4						
+5		out	line	r		Z
+#6						
+#7						
+8		out	line	r		X
+#9						
+#10						
+#11						
+#12						
+13		in	line	t		Vref
+#14						
+#15						
+16		out	line	r		Y
+17		pwr	line	b		K

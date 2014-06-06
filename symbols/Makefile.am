@@ -3,6 +3,7 @@ GENERATED_FILES =					\
 	PIC18F46J50.sym					\
 	23K640.sym					\
 	TCN75A.sym					\
+	MTCSiCF.sym					\
 	TCS3200.sym
 
 designsymbolsdir = $(datadir)/colorhug-hardware/symbols
