@@ -4,8 +4,7 @@ GENERATED_FILES =					\
 	23K640.sym					\
 	TCN75A.sym					\
 	MCDC04.sym					\
-	MTCSiCF.sym					\
-	TCS3200.sym
+	MTCSiCF.sym
 
 designsymbolsdir = $(datadir)/colorhug-hardware/symbols
 designsymbols_DATA =					\
