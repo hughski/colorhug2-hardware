@@ -30,7 +30,7 @@ numslots=0
 2		in	line	l		IN2
 3		in	line	l		IN1
 4		in	line	l		IN0
-5		in	none	l		REXT
+5		in	line	t		REXT
 6		pwr	none		GND	
 7		in	none		GND	
 8		in	line	b		A1
