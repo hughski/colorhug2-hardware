@@ -1179,40 +1179,6 @@ Element["" "0805" "C9" "1uf" 705.18mil 392.92mil -38.50mil -92.57mil 0 100 ""]
 
 	)
 
-Element["onsolder" "QFN16_3_EP" "U1" "unknown" 526.87mil 848.35mil -89.80mil -99.17mil 0 100 "auto"]
-(
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stefan_salewski/footprints/QFN16_3_EP.fp")
-	Attribute("description" "QFN16_3_EP, suited for hand soldering")
-	Attribute("author" "Stefan Salewski")
-	Attribute("copyright" "2008 S. Salewski")
-	Attribute("use-license" "unlimited")
-	Attribute("dist-license" "GPL")
-	Attribute("documentation" "http://www.ti.com/lit/gpn/ths4509")
-	Pad[29.53mil 46.85mil 29.53mil 69.29mil 11.02mil 20.00mil 31.02mil "1" "1" "onsolder,square,edge2"]
-	Pad[9.84mil 46.85mil 9.84mil 69.29mil 11.02mil 20.00mil 31.02mil "2" "2" "onsolder,square,edge2"]
-	Pad[-9.85mil 46.85mil -9.85mil 69.29mil 11.02mil 20.00mil 31.02mil "3" "3" "onsolder,square,edge2"]
-	Pad[-29.54mil 46.85mil -29.54mil 69.29mil 11.02mil 20.00mil 31.02mil "4" "4" "onsolder,square,edge2"]
-	Pad[-29.53mil -69.29mil -29.53mil -46.85mil 11.02mil 20.00mil 31.02mil "9" "9" "onsolder,square"]
-	Pad[-9.84mil -69.29mil -9.84mil -46.85mil 11.02mil 20.00mil 31.02mil "10" "10" "onsolder,square"]
-	Pad[9.85mil -69.29mil 9.85mil -46.85mil 11.02mil 20.00mil 31.02mil "11" "11" "onsolder,square"]
-	Pad[29.54mil -69.29mil 29.54mil -46.85mil 11.02mil 20.00mil 31.02mil "12" "12" "onsolder,square"]
-	Pad[-69.29mil 29.53mil -46.85mil 29.53mil 11.02mil 20.00mil 31.02mil "Z" "5" "onsolder,square"]
-	Pad[-69.29mil 9.84mil -46.85mil 9.84mil 11.02mil 20.00mil 31.02mil "6" "6" "onsolder,square"]
-	Pad[-69.29mil -9.85mil -46.85mil -9.85mil 11.02mil 20.00mil 31.02mil "7" "7" "onsolder,square"]
-	Pad[-69.29mil -29.54mil -46.85mil -29.54mil 11.02mil 20.00mil 31.02mil "X" "8" "onsolder,square"]
-	Pad[46.85mil -29.53mil 69.29mil -29.53mil 11.02mil 20.00mil 31.02mil "Vref" "13" "onsolder,square,edge2"]
-	Pad[46.85mil -9.84mil 69.29mil -9.84mil 11.02mil 20.00mil 31.02mil "14" "14" "onsolder,square,edge2"]
-	Pad[46.85mil 9.85mil 69.29mil 9.85mil 11.02mil 20.00mil 31.02mil "15" "15" "onsolder,square,edge2"]
-	Pad[46.85mil 29.54mil 69.29mil 29.54mil 11.02mil 20.00mil 31.02mil "Y" "16" "onsolder,square,edge2"]
-	Pad[0.0000 0.0000 0.0000 0.0000 57.09mil 20.00mil 77.09mil "K" "17" "onsolder,square"]
-	ElementLine [-89.80mil -89.80mil -89.80mil 89.80mil 10.00mil]
-	ElementLine [-89.80mil 89.80mil 89.80mil 89.80mil 10.00mil]
-	ElementLine [89.80mil -89.80mil 89.80mil 89.80mil 10.00mil]
-	ElementLine [-89.80mil -89.80mil 89.80mil -89.80mil 10.00mil]
-	ElementLine [89.80mil 89.80mil 129.20mil 129.20mil 10.00mil]
-
-	)
-
 Element["onsolder" "SSOP16" "U6" "unknown" 15.9860mm 25.4821mm -5.7790mm 6.7145mm 0 100 "auto"]
 (
 	Pad[-7.00mil 0.0000 15.00mil 0.0000 16.00mil 30.00mil 22.00mil "IN3" "1" "onsolder,edge2"]
@@ -1302,7 +1268,49 @@ Element["" "0805" "R12" "2k2" 89.30mil 34.4769mm -22.57mil 31.01mil 0 100 ""]
 
 	)
 
-Element["" "0805" "R11" "2k2" 89.30mil 32.6624mm -53.07mil -2.3462mm 0 100 ""]
+Element["" "0805" "C4" "100nf" 53.58mil 499.79mil 49.16mil -31.21mil 0 100 ""]
+(
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "QFN16_3_EP" "U1" "unknown" 526.87mil 848.35mil -2.3862mm -2.9666mm 0 100 "auto"]
+(
+	Attribute("description" "QFN16_3_EP, suited for hand soldering")
+	Attribute("author" "Richard Hughes")
+	Attribute("copyright" "2014 Richard Hughes <richard@hughsie.com>")
+	Attribute("use-license" "unlimited")
+	Attribute("dist-license" "GPL")
+	Attribute("documentation" "MTCSiCF")
+	Pad[0.9750mm 1.7500mm 0.9750mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "1" "1" "onsolder,square,edge2"]
+	Pad[0.3250mm 1.7500mm 0.3250mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "2" "2" "onsolder,square,edge2"]
+	Pad[-0.3250mm 1.7500mm -0.3250mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "3" "3" "onsolder,square,edge2"]
+	Pad[-0.9750mm 1.7500mm -0.9750mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "4" "4" "onsolder,square,edge2"]
+	Pad[-2.3500mm 0.9750mm -1.7500mm 0.9750mm 0.4000mm 20.00mil 0.6000mm "Z" "5" "onsolder,square"]
+	Pad[-2.3500mm 0.3250mm -1.7500mm 0.3250mm 0.4000mm 20.00mil 0.6000mm "6" "6" "onsolder,square"]
+	Pad[-2.3500mm -0.3250mm -1.7500mm -0.3250mm 0.4000mm 20.00mil 0.6000mm "7" "7" "onsolder,square"]
+	Pad[-2.3500mm -0.9750mm -1.7500mm -0.9750mm 0.4000mm 20.00mil 0.6000mm "X" "8" "onsolder,square"]
+	Pad[-0.9750mm -2.3500mm -0.9750mm -1.7500mm 0.4000mm 20.00mil 0.6000mm "9" "9" "onsolder,square"]
+	Pad[-0.3250mm -2.3500mm -0.3250mm -1.7500mm 0.4000mm 20.00mil 0.6000mm "10" "10" "onsolder,square"]
+	Pad[0.3250mm -2.3500mm 0.3250mm -1.7500mm 0.4000mm 20.00mil 0.6000mm "11" "11" "onsolder,square"]
+	Pad[0.9750mm -2.3500mm 0.9750mm -1.7500mm 0.4000mm 20.00mil 0.6000mm "12" "12" "onsolder,square"]
+	Pad[1.7500mm -0.9750mm 2.3500mm -0.9750mm 0.4000mm 20.00mil 0.6000mm "Vref" "13" "onsolder,square,edge2"]
+	Pad[1.7500mm -0.3250mm 2.3500mm -0.3250mm 0.4000mm 21.00mil 0.6000mm "14" "14" "onsolder,square,edge2"]
+	Pad[1.7500mm 0.3250mm 2.3500mm 0.3250mm 0.4000mm 20.00mil 0.6000mm "15" "15" "onsolder,square,edge2"]
+	Pad[1.7500mm 0.9750mm 2.3500mm 0.9750mm 0.4000mm 0.2000mm 0.6000mm "Y" "16" "found,onsolder,square,edge2"]
+	Pad[0.0000 0.0000 0.0000 0.0000 2.5000mm 0.1000mm 2.7000mm "K" "17" "onsolder,square"]
+	ElementLine [-2.8500mm -2.8500mm -2.8500mm 2.8500mm 0.2000mm]
+	ElementLine [-2.8500mm 2.8500mm 2.8500mm 2.8500mm 0.2000mm]
+	ElementLine [2.8500mm -2.8500mm 2.8500mm 2.8500mm 0.2000mm]
+	ElementLine [-2.8500mm -2.8500mm 2.8500mm -2.8500mm 0.2000mm]
+	ElementLine [2.8500mm 2.8500mm 3.2000mm 3.2000mm 0.2000mm]
+
+	)
+
+Element["" "0805" "R2" "3.3M" 741.19mil 714.40mil -49.36mil -102.94mil 0 100 ""]
 (
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]

@@ -1,32 +1,38 @@
-Element[0x00000000 "QFN16_3_EP" "" "" 0 0 -8980 -15980 0 100 0x00000000]
+
+Element["" "QFN16_3_EP" "" "" 2.55mm 2.55mm -2.55mm -2.55mm 0 100 ""]
 (
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stefan_salewski/footprints/QFN16_3_EP.fp")
-	Pad[-6929 -2953 -4685 -2953 1102 2000 3102 "1" "1" 0x00000100]
-	Pad[-6929 -984 -4685 -984 1102 2000 3102 "2" "2" 0x00000100]
-	Pad[-6929 985 -4685 985 1102 2000 3102 "3" "3" 0x00000100]
-	Pad[-6929 2954 -4685 2954 1102 2000 3102 "4" "4" 0x00000100]
-	Pad[4685 2953 6929 2953 1102 2000 3102 "9" "9" 0x00000100]
-	Pad[4685 984 6929 984 1102 2000 3102 "10" "10" 0x00000100]
-	Pad[4685 -985 6929 -985 1102 2000 3102 "11" "11" 0x00000100]
-	Pad[4685 -2954 6929 -2954 1102 2000 3102 "12" "12" 0x00000100]
-	Pad[-2953 4685 -2953 6929 1102 2000 3102 "5" "5" 0x00000100]
-	Pad[-984 4685 -984 6929 1102 2000 3102 "6" "6" 0x00000100]
-	Pad[985 4685 985 6929 1102 2000 3102 "7" "7" 0x00000100]
-	Pad[2954 4685 2954 6929 1102 2000 3102 "8" "8" 0x00000100]
-	Pad[2953 -6929 2953 -4685 1102 2000 3102 "13" "13" 0x00000100]
-	Pad[984 -6929 984 -4685 1102 2000 3102 "14" "14" 0x00000100]
-	Pad[-985 -6929 -985 -4685 1102 2000 3102 "15" "15" 0x00000100]
-	Pad[-2954 -6929 -2954 -4685 1102 2000 3102 "16" "16" 0x00000100]
-	Pad[0 0 0 0 5709 2000 7709 "17" "17" 0x00000100]
-	ElementLine [8980 8980 -8980 8980 1000]
-	ElementLine [-8980 8980 -8980 -8980 1000]
-	ElementLine [-8980 -8980 8980 -8980 1000]
-	ElementLine [8980 -8980 8980 8980 1000]
-	ElementLine [-8980 -8980 -12920 -12920 1000]
 	Attribute("description" "QFN16_3_EP, suited for hand soldering")
-	Attribute("author" "Stefan Salewski")
-	Attribute("copyright" "2008 S. Salewski")
+	Attribute("author" "Richard Hughes")
+	Attribute("copyright" "2014 Richard Hughes <richard@hughsie.com>")
 	Attribute("use-license" "unlimited")
 	Attribute("dist-license" "GPL")
-	Attribute("documentation" "http://www.ti.com/lit/gpn/ths4509")
-)
+	Attribute("documentation" "MTCSiCF")
+
+	Pad[-2.35mm -0.975mm -1.75mm -0.975mm 0.4mm 0.2mm 0.6mm "1" "1" "selected,square"]
+	Pad[-2.35mm -0.325mm -1.75mm -0.325mm 0.4mm 0.2mm 0.6mm "2" "2" "square"]
+	Pad[-2.35mm 0.325mm -1.75mm 0.325mm 0.4mm 0.2mm 0.6mm "3" "3" "square"]
+	Pad[-2.35mm 0.975mm -1.75mm 0.975mm 0.4mm 0.2mm 0.6mm "4" "4" "square"]
+
+	Pad[-0.975mm 1.75mm -0.975mm 2.35mm 0.4mm 0.2mm 0.6mm "5" "5" "square"]
+	Pad[-0.325mm 1.75mm -0.325mm 2.35mm 0.4mm 0.2mm 0.6mm "6" "6" "square"]
+	Pad[0.325mm 1.75mm 0.325mm 2.35mm 0.4mm 0.2mm 0.6mm "7" "7" "square"]
+	Pad[0.975mm 1.75mm 0.975mm 2.35mm 0.4mm 0.2mm 0.6mm "8" "8" "square"]
+
+	Pad[2.35mm 0.975mm 1.75mm 0.975mm 0.4mm 0.2mm 0.6mm "9" "9" "square"]
+	Pad[2.35mm 0.325mm 1.75mm 0.325mm 0.4mm 0.2mm 0.6mm "10" "10" "square"]
+	Pad[2.35mm -0.325mm 1.75mm -0.325mm 0.4mm 0.2mm 0.6mm "11" "11" "square"]
+	Pad[2.35mm -0.975mm 1.75mm -0.975mm 0.4mm 0.2mm 0.6mm "12" "12" "square"]
+
+	Pad[0.975mm -1.75mm 0.975mm -2.35mm 0.4mm 0.2mm 0.6mm "13" "13" "square"]
+	Pad[0.325mm -1.75mm 0.325mm -2.35mm 0.4mm 0.2mm 0.6mm "14" "14" "square"]
+	Pad[-0.325mm -1.75mm -0.325mm -2.35mm 0.4mm 0.2mm 0.6mm "15" "15" "square"]
+	Pad[-0.975mm -1.75mm -0.975mm -2.35mm 0.4mm 0.2mm 0.6mm "16" "16" "square"]
+
+	Pad[0.0000 0.0000 0.0000 0.0000 2.5mm 0.1mm 2.7mm "17" "17" "square"]
+
+	ElementLine [2.85mm 2.85mm -2.85mm 2.85mm 0.2mm]
+	ElementLine [-2.85mm 2.85mm -2.85mm -2.85mm 0.2mm]
+	ElementLine [-2.85mm -2.85mm 2.85mm -2.85mm 0.2mm]
+	ElementLine [2.85mm -2.85mm 2.85mm 2.85mm 0.2mm]
+	ElementLine [-2.85mm -2.85mm -3.2mm -3.2mm 0.2mm]
+	)
