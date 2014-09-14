@@ -1301,7 +1301,7 @@ Element["onsolder" "QFN16_3_EP" "U1" "unknown" 526.87mil 848.35mil -2.3862mm -2.
 	Pad[1.7500mm -0.9750mm 2.3500mm -0.9750mm 0.4000mm 44.00mil 0.6000mm "Vref" "13" "onsolder,square,edge2"]
 	Pad[1.7500mm -0.3250mm 2.3500mm -0.3250mm 0.4000mm 21.00mil 0.6000mm "14" "14" "onsolder,square,edge2"]
 	Pad[1.7500mm 0.3250mm 2.3500mm 0.3250mm 0.4000mm 20.00mil 0.6000mm "15" "15" "onsolder,square,edge2"]
-	Pad[1.7500mm 0.9750mm 2.3500mm 0.9750mm 0.4000mm 0.2000mm 0.6000mm "Y" "16" "found,onsolder,square,edge2"]
+	Pad[1.7500mm 0.9750mm 2.3500mm 0.9750mm 0.4000mm 0.2000mm 0.6000mm "Y" "16" "onsolder,square,edge2"]
 	Pad[0.0000 0.0000 0.0000 0.0000 2.5000mm 0.1000mm 2.7000mm "K" "17" "onsolder,square"]
 	ElementLine [-2.8500mm -2.8500mm -2.8500mm 2.8500mm 0.2000mm]
 	ElementLine [-2.8500mm 2.8500mm 2.8500mm 2.8500mm 0.2000mm]
