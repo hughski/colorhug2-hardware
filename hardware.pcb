@@ -1209,8 +1209,8 @@ Element["onsolder" "SSOP16" "U6" "unknown" 15.9860mm 25.4821mm -5.7790mm 6.7145m
 
 Element["" "0805" "L1" "unknown" 89.30mil 320.90mil -58.29mil -92.85mil 0 100 ""]
 (
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "1" "1" "square"]
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "2" "2" "selected,square"]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
 
